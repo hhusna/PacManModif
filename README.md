@@ -1,16 +1,16 @@
 Modifikasi :
->>> Mengganti warna background menjadi warna abu-abu yang deklarasinya dengan kode rgb.
+> Mengganti warna background menjadi warna abu-abu yang deklarasinya dengan kode rgb.
     setBackground(new Color(181, 181, 181));
->>> Mengganti warna walls dengan deklarasi kode rgb.
+> Mengganti warna walls dengan deklarasi kode rgb.
     g.setColor(new Color(255, 255, 255));
->>>	Mengganti foods menjadi icon tacoFood pixel
+> Mengganti foods menjadi icon tacoFood pixel
     a)	Menambahkan variabel dengan nama tacoFood
         private Image tacoFoodImage;
     b)	Memuat gambar tacoFood
         tacoFoodImage = new ImageIcon(getClass().getResource("./tacoFood.png")).getImage();
     c)	Mengganti gambar dalam program
         Block food = new Block(tacoFoodImage, x + 10, y + 10, 14, 14);
->>>	Menambahkan panel score dan lives (nyawa) yang lebih jelas
+> Menambahkan panel score dan lives (nyawa) yang lebih jelas
     Untuk menambahkan panel di atas board game yaitu dengan menambahkan deklarasi berikut ke dalam constructor PacMan()
     setLayout(new BorderLayout());
     JLabel scoreLabel = new JLabel("Score: 0   Lives: 3", SwingConstants.CENTER);
